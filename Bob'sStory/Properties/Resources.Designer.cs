@@ -73,9 +73,49 @@ namespace Bob_sStory.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bear_Trap_clip_art_hight {
+            get {
+                object obj = ResourceManager.GetObject("Bear_Trap_clip_art_hight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blood_png_4 {
+            get {
+                object obj = ResourceManager.GetObject("blood-png-4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bob {
             get {
                 object obj = ResourceManager.GetObject("Bob", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chug_jug {
+            get {
+                object obj = ResourceManager.GetObject("chug jug", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wolf_forest {
+            get {
+                object obj = ResourceManager.GetObject("wolf forest", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
