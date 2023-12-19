@@ -16,5 +16,12 @@ namespace Bob_sStory._15
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            View153 n = new View153();
+            n.Show();
+            Hide();
+        }
     }
 }

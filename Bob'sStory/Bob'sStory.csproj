@@ -234,6 +234,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="15\View151.resx">
+      <DependentUpon>View151.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="15\View152.resx">
+      <DependentUpon>View152.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="15\View153.resx">
+      <DependentUpon>View153.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

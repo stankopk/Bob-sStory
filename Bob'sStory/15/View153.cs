@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bob_sStory._16;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace Bob_sStory._15
         public View153()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            View161 l = new View161();
+            l.Show();
+            Hide();
         }
     }
 }
