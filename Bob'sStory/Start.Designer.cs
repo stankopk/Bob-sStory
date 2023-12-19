@@ -31,7 +31,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCity = new System.Windows.Forms.Button();
             this.btnForest = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblBobsStory = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,13 +67,14 @@
             this.btnForest.UseVisualStyleBackColor = true;
             this.btnForest.Click += new System.EventHandler(this.btnForest_Click);
             // 
-            // label1
+            // lblBobsStory
             // 
-            this.label1.Location = new System.Drawing.Point(492, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(282, 93);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "This is Bob.He wants to go to the city or the forest. Where will he go ?";
+            this.lblBobsStory.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblBobsStory.Location = new System.Drawing.Point(313, 9);
+            this.lblBobsStory.Name = "lblBobsStory";
+            this.lblBobsStory.Size = new System.Drawing.Size(475, 74);
+            this.lblBobsStory.TabIndex = 3;
+            this.lblBobsStory.Text = "This is Bob.He wants to go to the city or the forest. Where will he go ?";
             // 
             // Start
             // 
@@ -81,7 +82,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Bob_sStory.Properties.Resources.Background;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblBobsStory);
             this.Controls.Add(this.btnForest);
             this.Controls.Add(this.btnCity);
             this.Controls.Add(this.pictureBox1);
@@ -97,7 +98,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnCity;
         private System.Windows.Forms.Button btnForest;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblBobsStory;
     }
 }
 
