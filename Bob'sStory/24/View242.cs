@@ -16,5 +16,19 @@ namespace Bob_sStory._24
         {
             InitializeComponent();
         }
+
+        private void btnBck1_Click(object sender, EventArgs e)
+        {
+            View241 f = new View241();
+            f.Show();
+            Hide();
+        }
+
+        private void btnNxt2_Click(object sender, EventArgs e)
+        {
+            View243 f = new View243();
+            f.Show();
+            Hide();
+        }
     }
 }
