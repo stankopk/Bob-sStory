@@ -234,6 +234,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="24\View241.resx">
+      <DependentUpon>View241.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="24\View242.resx">
+      <DependentUpon>View242.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -266,6 +272,17 @@
   <ItemGroup>
     <None Include="Resources\Bob.PNG" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\winter forest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mia khalifa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winter forest2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white bear.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
