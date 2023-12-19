@@ -234,6 +234,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="20\View201.resx">
+      <DependentUpon>View201.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="20\View202.resx">
+      <DependentUpon>View202.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="20\View203.resx">
+      <DependentUpon>View203.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -266,6 +275,17 @@
   <ItemGroup>
     <None Include="Resources\Bob.PNG" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\da68a0ea-a77b-4e0f-a77b-c69978ad425d-largeBlur_ConorMcGregor1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-12-19 163908.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

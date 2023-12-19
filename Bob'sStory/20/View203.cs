@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bob_sStory._24;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace Bob_sStory._20
         public View203()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            View241 bobReturnForm = new View241();
+            bobReturnForm.Show();
+            Hide();
         }
     }
 }

@@ -73,9 +73,49 @@ namespace Bob_sStory.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blood {
+            get {
+                object obj = ResourceManager.GetObject("blood", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bob {
             get {
                 object obj = ResourceManager.GetObject("Bob", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap da68a0ea_a77b_4e0f_a77b_c69978ad425d_largeBlur_ConorMcGregor1 {
+            get {
+                object obj = ResourceManager.GetObject("da68a0ea-a77b-4e0f-a77b-c69978ad425d-largeBlur_ConorMcGregor1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2023_12_19_163908 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2023-12-19 163908", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap st {
+            get {
+                object obj = ResourceManager.GetObject("st", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -16,5 +16,10 @@ namespace Bob_sStory._20
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
