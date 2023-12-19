@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD051584-F311-4DB6-9035-CFEB1498B779}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Bob_sStory</RootNamespace>
+    <AssemblyName>Bob%27sStory</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="14\View141.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="14\View141.Designer.cs">
+      <DependentUpon>View141.cs</DependentUpon>
+    </Compile>
+    <Compile Include="14\View142.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="14\View142.Designer.cs">
+      <DependentUpon>View142.cs</DependentUpon>
+    </Compile>
+    <Compile Include="14\View143.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="14\View143.Designer.cs">
+      <DependentUpon>View143.cs</DependentUpon>
+    </Compile>
+    <Compile Include="15\View151.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="15\View151.Designer.cs">
+      <DependentUpon>View151.cs</DependentUpon>
+    </Compile>
+    <Compile Include="15\View152.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="15\View152.Designer.cs">
+      <DependentUpon>View152.cs</DependentUpon>
+    </Compile>
+    <Compile Include="15\View153.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="15\View153.Designer.cs">
+      <DependentUpon>View153.cs</DependentUpon>
+    </Compile>
+    <Compile Include="16\View161.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="16\View161.Designer.cs">
+      <DependentUpon>View161.cs</DependentUpon>
+    </Compile>
+    <Compile Include="16\View162.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="16\View162.Designer.cs">
+      <DependentUpon>View162.cs</DependentUpon>
+    </Compile>
+    <Compile Include="16\View163.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="16\View163.Designer.cs">
+      <DependentUpon>View163.cs</DependentUpon>
+    </Compile>
+    <Compile Include="18\View181.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="18\View181.Designer.cs">
+      <DependentUpon>View181.cs</DependentUpon>
+    </Compile>
+    <Compile Include="18\View182.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="18\View182.Designer.cs">
+      <DependentUpon>View182.cs</DependentUpon>
+    </Compile>
+    <Compile Include="18\View183.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="18\View183.Designer.cs">
+      <DependentUpon>View183.cs</DependentUpon>
+    </Compile>
+    <Compile Include="19\View191.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="19\View191.Designer.cs">
+      <DependentUpon>View191.cs</DependentUpon>
+    </Compile>
+    <Compile Include="19\View192.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="19\View192.Designer.cs">
+      <DependentUpon>View192.cs</DependentUpon>
+    </Compile>
+    <Compile Include="19\View193.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="19\View193.Designer.cs">
+      <DependentUpon>View193.cs</DependentUpon>
+    </Compile>
+    <Compile Include="20\View201.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="20\View201.Designer.cs">
+      <DependentUpon>View201.cs</DependentUpon>
+    </Compile>
+    <Compile Include="20\View202.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="20\View202.Designer.cs">
+      <DependentUpon>View202.cs</DependentUpon>
+    </Compile>
+    <Compile Include="20\View203.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="20\View203.Designer.cs">
+      <DependentUpon>View203.cs</DependentUpon>
+    </Compile>
+    <Compile Include="21\View211.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="21\View211.Designer.cs">
+      <DependentUpon>View211.cs</DependentUpon>
+    </Compile>
+    <Compile Include="21\View212.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="21\View212.Designer.cs">
+      <DependentUpon>View212.cs</DependentUpon>
+    </Compile>
+    <Compile Include="21\View213.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="21\View213.Designer.cs">
+      <DependentUpon>View213.cs</DependentUpon>
+    </Compile>
+    <Compile Include="22\View221.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="22\View221.Designer.cs">
+      <DependentUpon>View221.cs</DependentUpon>
+    </Compile>
+    <Compile Include="22\View222.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="22\View222.Designer.cs">
+      <DependentUpon>View222.cs</DependentUpon>
+    </Compile>
+    <Compile Include="22\View223.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="22\View223.Designer.cs">
+      <DependentUpon>View223.cs</DependentUpon>
+    </Compile>
+    <Compile Include="24\View241.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="24\View241.Designer.cs">
+      <DependentUpon>View241.cs</DependentUpon>
+    </Compile>
+    <Compile Include="24\View242.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="24\View242.Designer.cs">
+      <DependentUpon>View242.cs</DependentUpon>
+    </Compile>
+    <Compile Include="24\View243.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="24\View243.Designer.cs">
+      <DependentUpon>View243.cs</DependentUpon>
+    </Compile>
+    <Compile Include="25\View251.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="25\View251.Designer.cs">
+      <DependentUpon>View251.cs</DependentUpon>
+    </Compile>
+    <Compile Include="25\View252.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="25\View252.Designer.cs">
+      <DependentUpon>View252.cs</DependentUpon>
+    </Compile>
+    <Compile Include="25\View253.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="25\View253.Designer.cs">
+      <DependentUpon>View253.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bob.PNG" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
