@@ -79,5 +79,15 @@ namespace Bob_sStory.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2023_12_19_164224 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2023-12-19 164224", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
