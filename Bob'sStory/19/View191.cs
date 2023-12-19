@@ -16,5 +16,10 @@ namespace Bob_sStory._19
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
